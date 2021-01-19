@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/mgt-landingzones",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "mgt-landingzones",
+        "TenantId": "c8eb5b13-162b-4cfd-b2aa-06dc231b4290",
+        "DisplayName": "mgt-landingzones",
+        "UpdatedTime": "2021-01-15T14:15:38.6771501Z",
+        "UpdatedBy": "549d9201-e74f-4cb4-b3f9-730fb4fa02e9",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/mgt",
+        "ParentName": "mgt",
+        "ParentDisplayName": "mgt",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/mgt-online",
+            "Name": "mgt-online",
+            "DisplayName": "mgt-online",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

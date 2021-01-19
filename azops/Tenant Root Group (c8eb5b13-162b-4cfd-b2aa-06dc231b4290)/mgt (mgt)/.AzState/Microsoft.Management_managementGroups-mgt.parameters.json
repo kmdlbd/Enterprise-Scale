@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/mgt",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "mgt",
+        "TenantId": "c8eb5b13-162b-4cfd-b2aa-06dc231b4290",
+        "DisplayName": "mgt",
+        "UpdatedTime": "2021-01-15T14:14:52.6081698Z",
+        "UpdatedBy": "549d9201-e74f-4cb4-b3f9-730fb4fa02e9",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/c8eb5b13-162b-4cfd-b2aa-06dc231b4290",
+        "ParentName": "c8eb5b13-162b-4cfd-b2aa-06dc231b4290",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/mgt-landingzones",
+            "Name": "mgt-landingzones",
+            "DisplayName": "mgt-landingzones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/mgt-platform",
+            "Name": "mgt-platform",
+            "DisplayName": "mgt-platform",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/mgt-sandboxes",
+            "Name": "mgt-sandboxes",
+            "DisplayName": "mgt-sandboxes",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/mgt-decommissioned",
+            "Name": "mgt-decommissioned",
+            "DisplayName": "mgt-decommissioned",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}
